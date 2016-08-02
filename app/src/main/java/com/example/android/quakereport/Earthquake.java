@@ -8,29 +8,12 @@ public class Earthquake {
     // Location of earthquake
     private String mLocation;
 
-    // date of earthquake
-    private  mDate;
+    /** Time of the earthquake */
+    private long mTimeInMilliseconds;
 
-    /*
-    * Create a new AndroidFlavor object.
-    *
-    * @param vName is the name of the Android version (e.g. Gingerbread)
-    * @param vNumber is the corresponding Android version number (e.g. 2.3-2.7)
-    * @param image is drawable reference ID that corresponds to the Android version
-    * */
-    public class Earthquake {
+    /** Website URL of the earthquake */
+    private String mUrl;
 
-        /** Magnitude of the earthquake */
-        private double mMagnitude;
-
-        /** Location of the earthquake */
-        private String mLocation;
-
-        /** Time of the earthquake */
-        private long mTimeInMilliseconds;
-
-        /** Website URL of the earthquake */
-        private String mUrl;
 
         /**
          * Constructs a new {@link Earthquake} object.
